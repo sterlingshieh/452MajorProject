@@ -79,7 +79,7 @@ nav{
     width: 100%;
 }
 
-/*about me page*/
+/*about us page*/
 
 .sub-header{
     height: 100vh;
@@ -100,7 +100,7 @@ nav{
 	padding-bottom: 20px;
 	font-size: 30px;
 }
-.content{
+.content-about-us{
 	color: #fff;
     position: relative;
     left: 50%;
@@ -109,12 +109,12 @@ nav{
 	font-size: 25px;
 	padding-top: 100px;
 }
-.content p{
+.content-about-us p{
 	padding-left: 20%;
 	padding-right: 20%;
 	padding-bottom: 1%;
 }
-.content a{
+.content-about-us a{
 	display: inline-block;
     text-decoration: none;
     color: #fff;
@@ -125,7 +125,53 @@ nav{
     position: relative;
     cursor: pointer;
 }
-.content a:hover{
+.content-about-us a:hover{
+	border: 1px solid #d600cb;
+    background: #ff9cff;
+    transition: 1s;
+}
+
+/*contact page*/
+
+.title-contact{
+	color: #fff;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+	padding-bottom: 20px;
+	font-size: 30px;
+
+}
+.content-contact{
+    width: 40%;
+    margin: auto;
+    display: block;
+}
+.content-contact input, .content-contact textarea{
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 17px;
+    outline: none;
+    border: 1px solid rgb(247, 199, 239);
+}
+
+.btn{
+	display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 10px 20px;
+    font-size: 20px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+    width: 40%;
+    margin: auto;
+    display: block;
+}
+.btn:hover{
 	border: 1px solid #d600cb;
     background: #ff9cff;
     transition: 1s;
